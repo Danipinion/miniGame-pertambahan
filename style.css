@@ -8,7 +8,45 @@ body{
     background-color: tomato;
     text-align: center;
 }
+.inName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input.nama{
+    display: inline-block;
+    text-align: center;
+    width: 20em;
+    /* height: .7em; */
+    margin: auto;
+    color: #000;
+    font-size: 3em;
+    border: none;
+    box-shadow: 1px 1px 2px #000;
+}
+.inName .btn{
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.questAnswer{
+    display: none;
+}
 .title{
     color: white;
     margin: 25px;
@@ -43,6 +81,7 @@ div.quest{
 }
 input.quest{
     display: block;
+    text-align: center;
     width: 150px;
     height: 150px;
     color: #000;
@@ -50,14 +89,18 @@ input.quest{
     border: none;
     box-shadow: 1px 1px 2px #000;
 }
+.btn-bg{
+    display: flex;
+    justify-content: center;
+}
 .btn{
+    margin: 20px;
     background-color: rgb(255, 47, 0);
     display: block;
     width: 5em;
     height: 3em;
     line-height: 2.9em;
     color: white;
-    margin: auto;
     font-weight: 500;
     font-family: fantasy;
     cursor: pointer;

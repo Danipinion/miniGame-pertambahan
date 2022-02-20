@@ -8,17 +8,27 @@
     <title>Game Pertambahan</title>
 </head>
 <body>
-    <h1 class="title">berapakah hasil dari pertanyaan berikut ?</h1>
-    <div class="question">
-        <div class="quest"></div>
-        <span class="quest"> + </span>
-        <div class="quest"></div>
-        <span class="quest"> = </span>
-        <input class="quest" id="inResult"></input>
+    <div class="questAnswer" id="quiz">
+        <h1 class="title">berapakah hasil dari pertanyaan berikut ?</h1>
+        <div class="question">
+            <div class="quest"></div>
+            <span class="quest"> + </span>
+            <div class="quest"></div>
+            <span class="quest"> = </span>
+            <input class="quest" id="inResult"></input>
+        </div>
+        <div class="btn-bg">
+            <div class="btn" id="btn">Cek Hasil</div>
+            <div class="btn" id="coba">Coba Lagi</div>
+        </div>
+        <span id="outResult"></span>
+        <h3 class="footer" id="tempat">selamat bermain! null</h3>
     </div>
-    <div class="btn" id="btn" accesskey="">Cek Hasil</div>
-    <span id="outResult"></span>
-    <h3 class="footer" id="tempat">selamat bermain! null</h3>
+    <div class="inName">
+        <h1 class="title">Masukkan Nama</h1>
+        <input class="nama" id="nama"></input>
+        <div class="btn" id="next">Mulai</div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
