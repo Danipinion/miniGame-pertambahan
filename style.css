@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: tomato;
+    text-align: center;
+}
+
+.title{
+    color: white;
+    margin: 25px;
+    padding: 10px;
+    text-shadow: 0px 1px 1px #000;
+    text-transform: uppercase;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.quest{
+    margin-right: 20px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+div.quest{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 1px 2px #000;
+    text-align: center;
+    font-size: 8em;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input.quest{
+    display: block;
+    width: 150px;
+    height: 150px;
+    color: #000;
+    font-size: 6em;
+    border: none;
+    box-shadow: 1px 1px 2px #000;
+}
+.btn{
+    background-color: rgb(255, 47, 0);
+    display: block;
+    width: 5em;
+    height: 3em;
+    line-height: 2.9em;
+    color: white;
+    margin: auto;
+    font-weight: 500;
+    font-family: fantasy;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) ease-in-out;
+    transform: scale(110%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transition: cubic-bezier(0.165, 0.84, 0.44, 1) ease-in-out;
+    -moz-transition: cubic-bezier(0.165, 0.84, 0.44, 1) ease-in-out;
+    -ms-transition: cubic-bezier(0.165, 0.84, 0.44, 1) ease-in-out;
+    -o-transition: cubic-bezier(0.165, 0.84, 0.44, 1) ease-in-out;
+}
+.footer{
+    color: white;
+    margin: 25px;
+    padding: 10px;
+    text-shadow: 0px 1px 1px #000;
+    text-transform: uppercase;
+}
